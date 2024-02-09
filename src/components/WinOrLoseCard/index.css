@@ -1,0 +1,126 @@
+.win-lose-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #b1b0f1;
+  width: 85%;
+  border: 3px solid #9796f0;
+  border-radius: 20px;
+  margin: auto;
+  padding: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-lose-card {
+    width: 80%;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .win-lose-card {
+    width: 70%;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .win-lose-card {
+    width: 60%;
+  }
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .details-section {
+    order: 0;
+  }
+}
+
+.game-status {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .game-status {
+    font-size: 50px;
+  }
+}
+
+.score-label {
+  text-align: center;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-label {
+    font-size: 30px;
+  }
+}
+
+.Score {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .Score {
+    font-size: 40px;
+  }
+}
+
+.play-btn {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 18px;
+  margin: 15px;
+  padding: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.img-section {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .img-section {
+    order: 1;
+  }
+}
+
+.win-lose-img {
+  height: 200px;
+  width: 150px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-lose-img {
+    height: 450px;
+    width: 350px;
+  }
+}
