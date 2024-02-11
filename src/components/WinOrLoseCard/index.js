@@ -14,7 +14,7 @@ const WinOrLoseCard = props => {
       <div className="details-section">
         <h1 className="game-status">{gameStatus}</h1>
         <p className="score-label">{scoreLable}</p>
-        <p className="score">{score / 12}</p>
+        <p className="score">{score}/12</p>
         <button type="button" className="play-btn" onClick={onClickPlayAgain}>
           Play Again
         </button>
